@@ -1,0 +1,45 @@
+{
+  "id": "a4effe62-ef9f-4564-99a4-f6c4d26dd0c2",
+  "name": "stalker.user.following",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.following",
+      "affectedContexts": [
+        {
+          "name": "user",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "084fb4d8-b4d0-4689-ad7d-988369dab224",
+          "required": false,
+          "name": "user",
+          "value": "#user.user",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I don\u0027t know who does $user follow"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520256876,
+  "fallbackIntent": false,
+  "events": []
+}

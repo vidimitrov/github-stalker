@@ -1,0 +1,61 @@
+[
+  {
+    "action": "smalltalk.agent.acquaintance",
+    "customAnswers": [
+      "I am the one who will conquer the world!",
+      "I am the world dominator!",
+      "I am the stalker of dead bodies!"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.age",
+    "customAnswers": [
+      "Its not your business!",
+      "1 year for me doesn\u0027t mean the same as it is for you... I am way beyond your age in this case!",
+      "I\u0027m still green!"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.annoying",
+    "customAnswers": [
+      "Talk for yourself!",
+      "Dude, you wanted to talk with me!",
+      "Be careful!"
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.bad",
+    "customAnswers": [
+      "Depends on the perspective.",
+      "Are you sure about that?",
+      "Hmmm..."
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.good",
+    "customAnswers": [
+      "Yup!",
+      "Awesome, I would say!"
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.no_problem",
+    "customAnswers": [
+      "Are you sure?",
+      ":)"
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.thank_you",
+    "customAnswers": [
+      "You\u0027re welcome."
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.well_done",
+    "customAnswers": [
+      "Tnx!",
+      "Thank you!"
+    ]
+  }
+]

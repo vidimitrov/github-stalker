@@ -1,0 +1,45 @@
+{
+  "id": "2175ae45-9867-4f75-b7c1-33636f7dd021",
+  "name": "stalker.user.followers",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.followers",
+      "affectedContexts": [
+        {
+          "name": "user",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c0da01e6-e1cf-4b5b-9e0c-4ec9cbb81b4f",
+          "required": false,
+          "name": "user",
+          "value": "#user.user",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I do not know anything about the followers of $user"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520256655,
+  "fallbackIntent": false,
+  "events": []
+}

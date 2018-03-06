@@ -1,0 +1,45 @@
+{
+  "id": "c20cef0a-8236-4acb-aafe-2e8f4aff7836",
+  "name": "stalker.user",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user",
+      "affectedContexts": [
+        {
+          "name": "user",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1a802541-189b-4c5d-943b-839d68ff6fff",
+          "required": false,
+          "dataType": "@user",
+          "name": "user",
+          "value": "$user",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "At this point I don\u0027t know anything about $user..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520259805,
+  "fallbackIntent": false,
+  "events": []
+}

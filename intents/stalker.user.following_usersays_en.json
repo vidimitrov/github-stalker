@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a8570daf-576a-402f-89ae-406ca55085c6",
+    "data": [
+      {
+        "text": "Who are the guys that he is interested in?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520256876
+  },
+  {
+    "id": "3ab1c0d7-cc9a-4592-8aca-7496aaf59c7f",
+    "data": [
+      {
+        "text": "Does he follow anyone?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520256876
+  },
+  {
+    "id": "2ad0b164-6f3c-4725-88b1-2c40398fede8",
+    "data": [
+      {
+        "text": "Who is he following?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520256876
+  }
+]

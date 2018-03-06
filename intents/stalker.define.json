@@ -1,0 +1,57 @@
+{
+  "id": "c3612696-31f5-43fd-a790-2d4c08ec4d15",
+  "name": "stalker.define",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "slack",
+          "lang": "en",
+          "title": "Github Stalker",
+          "subtitle": "The best stalker for Github in the world. Stalk or be stalked :)",
+          "imageUrl": "https://i.ytimg.com/vi/rYNjcM7wCy8/maxresdefault.jpg",
+          "buttons": [
+            {
+              "text": "Stalk",
+              "postback": "What do you know about vidimitrov?"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Yo stalker here! A Github Stalker. Ask me a question like \"What do you know about vidimitrov?\", \"How many repositories does vidimitrov have?\", \"Is vidimitrov a good developer?\". After that, you can continue with questions like: \"What are his/her primary programming language?\" or \"How many open-source repositories he contributed to?\"",
+            "Hello! I am a stalker, a Github Stalker! Basically, I stalk open-source contributors. Ask me a question like \"What do you know about vidimitrov?\", \"How many repositories does vidimitrov have?\", \"Is vidimitrov a good developer?\". After that, you can continue with questions like: \"What are his/her primary programming language?\" or \"How many open-source repositories he contributed to?\"",
+            "Hi, nice to meet you. I am Stalker, Github Stalker. Ask me a question like \"What do you know about vidimitrov?\", \"How many repositories does vidimitrov have?\", \"Is vidimitrov a good developer?\". After that, you can continue with questions like: \"What are his/her primary programming language?\" or \"How many open-source repositories he contributed to?\""
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520269783,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

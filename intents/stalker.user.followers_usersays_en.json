@@ -1,0 +1,50 @@
+[
+  {
+    "id": "d0a0eff9-420c-45a8-8fe4-a19a44fc1dac",
+    "data": [
+      {
+        "text": "Is someone interested in his activity?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520256655
+  },
+  {
+    "id": "6c6d37b5-2ea4-4619-a402-e1ec5716b9c8",
+    "data": [
+      {
+        "text": "Does he has any followers?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520256655
+  },
+  {
+    "id": "25c32344-d14b-4dcb-b4d5-5b6b5622023a",
+    "data": [
+      {
+        "text": "Who is following him?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520256655
+  },
+  {
+    "id": "3fb08e01-a531-4935-a25a-2dfd15b9be56",
+    "data": [
+      {
+        "text": "Does he have any followers?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520256655
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "id": "5f3e8d0b-1f6c-435b-b1c7-660ed49ba6a5",
+  "name": "stalker.user.starred",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.starred",
+      "affectedContexts": [
+        {
+          "name": "user",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "10162214-1dbc-479b-bdbb-6b9010575656",
+          "required": false,
+          "name": "user",
+          "value": "#user.user",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520256566,
+  "fallbackIntent": false,
+  "events": []
+}

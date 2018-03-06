@@ -1,0 +1,29 @@
+{
+  "id": "18cbc334-3784-4ed3-b2f3-718dc4bec5a7",
+  "name": "fallback",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I didn\u0027t get that... You can ask questions like \"What do you know about vidimitrov?\", \"Who is vidimitrov?\", etc. and after that ask questions like \"How many repositories does he have?\", \"Who does he follow?\", \"Who is following him?\", \"What is he interested in?\", etc."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520257073,
+  "fallbackIntent": true,
+  "events": []
+}

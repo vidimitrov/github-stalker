@@ -1,0 +1,49 @@
+{
+  "description": "An agent that helps you ask simple questions related to the Github data about a specific user.",
+  "language": "en",
+  "shortDescription": "A very simple Github stalker agent",
+  "examples": "User: I\u0027m working on an Assistant app for a sports program.\nUser: I need a Slack bot.\nUser: Can you help me build a hotel booking bot?",
+  "activeAssistantAgents": [
+    "smalltalk-domain-new",
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "faq-hujkci",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "c20cef0a-8236-4acb-aafe-2e8f4aff7836",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true
+  },
+  "defaultTimezone": "America/Denver",
+  "webhook": {
+    "url": "https://us-central1-weatherbot-196714.cloudfunctions.net/stalkerBot",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": false
+}
